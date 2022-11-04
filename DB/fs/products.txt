@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Tijera",
+    "price": "1234",
+    "thumbnail": "https://cdn2.iconfinder.com/data/icons/flat-icons-19/512/Sclssors.png",
+    "id": 1
+  },
+  {
+    "title": "Tijerota",
+    "price": "12364",
+    "thumbnail": "https://cdn2.iconfinder.com/data/icons/flat-icons-19/512/Sclssors.png",
+    "id": 2
+  }
+]
