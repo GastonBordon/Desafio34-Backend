@@ -57,7 +57,7 @@ app.use(
     rolling: true,
     saveUninitialized: true,
     store: MongoStore.create({
-      mongoUrl: `mongodb+srv://${process.env.MONGO_USR}:${process.env.MONGO_PASS}@${process.env.MONGO_HOST}/?retryWrites=true&w=majority`,
+      mongoUrl: `mongodb+srv://gastonbordon90:coder1234@cluster0.ejdmv0z.mongodb.net/?retryWrites=true&w=majority`,
       mongoOptions: advancedOptions,
     }),
     cookie: {
