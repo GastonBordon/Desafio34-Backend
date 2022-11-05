@@ -13,8 +13,8 @@ const router = Router();
 
 router
   .get("/", (req, res) => {
-    // const { url, method } = req;
-    // logger.info("Ruta %s  Metodo: %s", url, method);
+    const { url, method } = req;
+    logger.info("Ruta %s  Metodo: %s", url, method);
 
     res.render("main", { layouts: "index" });
   })
